@@ -15,7 +15,7 @@ function prototype(list , word){
   let list =  ["C1","C2","C3","C3","C1","C2","C1"]; /*the list and the fuction are not the same*/
                  
   let word = prompt("entre "); /*the word and the fuction are not the same */
-  let count = prototype(b,a);/*the count and the fuction are not the same */
+  let count = prototype(list,word);/*the count and the fuction are not the same */
   
   if(count > 0){
     alert(word + "est repete "+count + " fois");
